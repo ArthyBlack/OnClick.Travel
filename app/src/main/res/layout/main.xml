@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arthurblack.onclicktravel.MainActivity">
+
+    <Button
+        android:id="@+id/button_allinones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:text="@string/allinones"
+    />
+
+    <Button
+        android:id="@+id/button_flights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/flights"
+        android:layout_gravity="bottom"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_accommodations"
+        android:text="@string/accommodations"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_trains"
+        android:text="@string/trains"
+        android:layout_gravity="bottom|end"
+    />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_cars"
+        android:text="@string/cars"
+        android:layout_gravity="end"
+    />
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/button_menu"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/title_activity_menu"-->
+        <!--android:layout_gravity="top|center"/>-->
+
+
+    <!--<ActionMenuView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"></ActionMenuView>-->
+
+</FrameLayout>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/buttons"
+    android:elevation="2dp">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1.325"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/to_flight_logo"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:padding="0dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp">
+            <TextView
+                android:id="@+id/to_departure_airport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#72ceea"
+                android:textSize="16sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="2"
+                tools:text="TEXT"/>
+
+            <TextView
+                android:id="@+id/to_departure_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#72ceea"
+                android:textSize="10sp"
+                tools:text="TEXT" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/back_departure_airport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#72ceea"
+                android:textSize="16sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="2"
+                tools:text="TEXT"/>
+            <TextView
+                android:id="@+id/back_departure_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#72ceea"
+                android:textSize="10sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                tools:text="TEXT"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+
+        <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/to_flight_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:background="@drawable/buttons"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#72ceea"
+                android:textSize="16sp"
+                tools:text="TEXT" />
+
+            <TextView
+            android:id="@+id/to_stops"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#72ceea"
+            android:background="@drawable/buttons"
+            android:textSize="10sp"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_weight="1"
+            tools:text="TEXT"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/back_flight_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#72ceea"
+                android:background="@drawable/buttons"
+                android:textSize="16sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="2"
+                tools:text="TEXT"/>
+
+            <TextView
+                android:id="@+id/back_stops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttons"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#72ceea"
+                android:textSize="10sp"
+                tools:text="TEXT" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp">
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:id="@+id/to_arrival_airport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#72ceea"
+                android:textSize="16sp"
+                tools:text="TEXT" />
+
+            <TextView
+                android:id="@+id/to_arrival_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:textColor="#72ceea"
+                android:textSize="10sp"
+                tools:text="TEXT" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/back_arrival_airport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#72ceea"
+                android:textSize="16sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="2"
+                tools:text="TEXT"/>
+            <TextView
+                android:id="@+id/back_arrival_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#72ceea"
+                android:textSize="10sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_weight="1"
+                tools:text="TEXT"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
