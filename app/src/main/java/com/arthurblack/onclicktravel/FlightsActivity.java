@@ -1,6 +1,7 @@
 package com.arthurblack.onclicktravel;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -48,7 +49,7 @@ public class FlightsActivity extends AppCompatActivity implements View.OnClickLi
         Intent intent;
         switch(v.getId()){
             case(R.id.depatrure_city):
-                intent = new Intent(this, CountriesActivity.class);
+                intent = new Intent(this, CitiesActivity.class);
                 startActivityForResult(intent, REQUEST_CODE_DEPT_CITY);
                 Log.d("TAGGGG", "НАЖАЛОСЬ");
                 break;
@@ -82,6 +83,8 @@ public class FlightsActivity extends AppCompatActivity implements View.OnClickLi
         if(resultCode == RESULT_OK){
             switch (requestCode){
                 case REQUEST_CODE_DEPT_CITY:
+                    int color = data.getIntExtra("color", Color.WHITE);
+                    departureCity.setTextColor(color);
                     String city =  data.getStringExtra("city");
                     departureCity.setText(city);
                     break;
